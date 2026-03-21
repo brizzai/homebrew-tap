@@ -3,7 +3,7 @@ cask "brizz-code" do
   name "brizz-code"
   desc "TUI for managing multiple Claude Code sessions in parallel"
   homepage "https://github.com/brizzai/brizz-code"
-  version "0.9.10"
+  version "0.10.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,11 +17,11 @@ cask "brizz-code" do
   on_macos do
     on_intel do
       url "https://github.com/brizzai/brizz-code/releases/download/v#{version}/brizz-code_#{version}_darwin_amd64.tar.gz"
-      sha256 "312a43016328224ffd69c3ade2cf55cc183ced334f1e2f92ba514c0a60fab103"
+      sha256 "828df886ed8304c3479150898c6d72825c94c34e080b315ff4fef363b9a12d1f"
     end
     on_arm do
       url "https://github.com/brizzai/brizz-code/releases/download/v#{version}/brizz-code_#{version}_darwin_arm64.tar.gz"
-      sha256 "877e20d3f3e7506ec17fccdfed00cd7db1883583347bb3bbff49e0496c310d1a"
+      sha256 "6eba574330b2defacd20af9d642770a4eef92dd50816931f36b6c22dd73e3033"
     end
   end
 
