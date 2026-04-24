@@ -4,22 +4,22 @@ cask "brizz-cli" do
 
   on_macos do
     on_intel do
-      sha256 "cb5378e0fe6269041b2648d494b9da6efe930dd153a83e394120b9f0a2f3e8e3"
+      sha256 "5b83a8941ee96bc9db7fb032e1c8f5cafc59a4f248169a5859d4e918a8f1c768"
       url "https://github.com/brizzai/brizz-cli/releases/download/v#{version}/brizz-cli_#{version}_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "4ac2300a100eacf000a35d877c049c7688a658ea40023553dfdedae924da143f"
+      sha256 "9e5fe5365c1b5fa38603edc14621185b4abe88e11b9f71d0dfc6dd5835c354c1"
       url "https://github.com/brizzai/brizz-cli/releases/download/v#{version}/brizz-cli_#{version}_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "7e96246d4527c8d88c98f73b7ed1fa3e5d9927dc0a0cac3450b91e5b434c53ad"
+      sha256 "0bc7d53150e6417a341f87be8c22a39f6fd5620e028e10a55e59cbcbb95047aa"
       url "https://github.com/brizzai/brizz-cli/releases/download/v#{version}/brizz-cli_#{version}_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "55744058f8905bf959bb94c66ad3ce7a515c9dcb724426ebfecc445e799545a1"
+      sha256 "eefcc684489016ada3007f17512ad659df7a46651d2a64aadb75188721fe3501"
       url "https://github.com/brizzai/brizz-cli/releases/download/v#{version}/brizz-cli_#{version}_Linux_arm64.tar.gz"
     end
   end
